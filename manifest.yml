@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Nagu1
+  host: Nagu1
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-9d
